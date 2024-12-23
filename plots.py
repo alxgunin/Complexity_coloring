@@ -75,7 +75,7 @@ def plot_grid_graph():
             end = time.time()
             results.append(end - begin)
 
-    draw_results(sizes, results, "grid graph(width = height)")
+    draw_results(sizes ** 2, results, "grid graph(width = height)")
 
 
 def plot_line_graph():
